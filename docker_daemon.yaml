@@ -74,7 +74,7 @@ instances:
     # include: []
     #
     # Default: include all containers
-    exclude: ["docker_image:.*pause.*"]
+    exclude: ["image_name:.*pause.*"]
     include: []
 
 
