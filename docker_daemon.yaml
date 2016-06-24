@@ -74,7 +74,7 @@ instances:
     # include: []
     #
     # Default: include all containers
-    exclude: ["docker_image:gcr.io/google_containers/pause"]
+    exclude: [".*pause.*"]
     include: []
 
 
